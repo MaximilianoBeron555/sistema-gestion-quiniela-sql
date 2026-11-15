@@ -21,6 +21,6 @@ Este repositorio documenta la progresión técnica del sistema desde un prototip
 * Colorama
 
 ## Cómo ejecutarlo
-1. Clonar el repositorio: `git clone <tu-url-de-github>`
+1. Clonar el repositorio: `git clone https://github.com/MaximilianoBeron555/sistema-gestion-quiniela-sql.git`
 2. Instalar dependencias: `pip install -r requirements.txt`
 3. Ejecutar el programa: `python "v4 - Migración a SQL (Versión Actual).py"`
