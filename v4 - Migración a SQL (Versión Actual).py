@@ -93,6 +93,16 @@ def eliminar_por_id(id_cliente):
     conn.close()
     return filas_borradas > 0
 
+def eliminar_todos():
+    conn = conectar()
+    cursor = conn.cursor()
+    
+    cursor.execute("DELETE FROM clientes")
+
+    conn.commit()
+    conn.close()
+    return True
+  
 def sumar_por_tipo(tipo):
     conn = conectar()
     cursor = conn.cursor()
@@ -323,6 +333,7 @@ while True:
               "No",
               "Si" ]).ask()         
         if opcion1 == "Si":
+          eliminar_todos()
           print(Fore.BLUE + Back.BLACK + "\nPrograma Finalizado. \n" + Fore.RESET + Back.RESET)
           break
         elif opcion1 == "No":
