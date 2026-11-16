@@ -32,20 +32,9 @@ Este repositorio documenta la progresión técnica del sistema desde un prototip
 * **Optimización en Base de Datos:** Delegación de cálculos y filtros al motor SQL mediante `SUM()`, `COALESCE()` y búsquedas insensibles a mayúsculas (`LOWER` + `LIKE`).
 
 ## Tecnologías Utilizadas
-* Python 3
-* SQLite3
-* Questionary
-* Colorama
-
-## Tecnologías Utilizadas
 * **Lenguaje:** Python 3
 * **Base de Datos:** SQLite3
 * **Interfaz CLI:** Questionary & Colorama
-
-## Cómo ejecutarlo
-1. Clonar el repositorio: `git clone https://github.com/MaximilianoBeron555/sistema-gestion-quiniela-sql.git`
-2. Instalar dependencias: `pip install -r requirements.txt`
-3. Ejecutar el programa: `python "v4 - Migración a SQL (Versión Actual).py"`
 
 ## Cómo ejecutarlo
 1. Clonar el repositorio:
