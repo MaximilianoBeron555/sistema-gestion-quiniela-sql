@@ -14,10 +14,10 @@ Aplicación de consola (CLI) desarrollada en Python para la administración de c
 ![Menú Principal](assets/menu.png)
 
 ### 2. Registro de Cliente y Tipo de Pago
-![Agregar Cliente](assets/agregar_cliente.png)
+![Agregar Cliente](assets/agregado.png)
 
 ### 3. Consulta de Listado y Cierre de Caja
-![Cierre de Caja](assets/cierre_caja.png)
+![Cierre de Caja](assets/calcular_montos.png)
 
 ## Evolución del Proyecto
 Este repositorio documenta la progresión técnica del sistema desde un prototipo inicial hasta una solución con persistencia relacional:
@@ -39,7 +39,7 @@ Este repositorio documenta la progresión técnica del sistema desde un prototip
 ## Cómo ejecutarlo
 1. Clonar el repositorio:
    ```bash
-   git clone [https://github.com](https://github.com/MaximilianoBeron555/sistema-gestion-quiniela-sql)
+   git clone https://github.com/MaximilianoBeron555/sistema-gestion-quiniela-sql
    cd sistema-gestion-quiniela-sql
    ```
 2. Instalar dependencias:
