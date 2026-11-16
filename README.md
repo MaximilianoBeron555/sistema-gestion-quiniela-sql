@@ -39,7 +39,7 @@ Este repositorio documenta la progresión técnica del sistema desde un prototip
 ## Cómo ejecutarlo
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com
+   git clone [https://github.com](https://github.com/MaximilianoBeron555/sistema-gestion-quiniela-sql)
    cd sistema-gestion-quiniela-sql
    ```
 2. Instalar dependencias:
