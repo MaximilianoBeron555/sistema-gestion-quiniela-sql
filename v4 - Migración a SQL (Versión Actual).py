@@ -93,11 +93,11 @@ def eliminar_por_id(id_cliente):
     conn.close()
     return filas_borradas > 0
 
-def eliminar_todos():
+def limpiar_registro_nf(): 
     conn = conectar()
     cursor = conn.cursor()
     
-    cursor.execute("DELETE FROM clientes")
+    cursor.execute("DELETE FROM clientes WHERE LOWER(tipo) != 'fiado'")
 
     conn.commit()
     conn.close()
@@ -333,7 +333,7 @@ while True:
               "No",
               "Si" ]).ask()         
         if opcion1 == "Si":
-          eliminar_todos()
+          limpiar_registro_nf()
           print(Fore.BLUE + Back.BLACK + "\nPrograma Finalizado. \n" + Fore.RESET + Back.RESET)
           break
         elif opcion1 == "No":
